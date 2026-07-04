@@ -187,33 +187,28 @@ AI only for reasoning-intensive tasks
 - No feedback loop — scoring weights are static, not learned from conversion outcomes
 
 - No historical trend visualization — score changes over time not yet surfaced
-
--   Rule-based scoring (no ML learning)
-
--   Limited news sources
   
 
 
 ## Future Roadmap:
-Phase 1
-- PostgreSQL
-- Redis Cache
-- Slack
 
-Phase 2
-- Salesforce
-- HubSpot
-- Pipedrive
+**Phase 1 — Infrastructure**
+- PostgreSQL (replace Google Sheets for indexed queries)
+- Redis Cache (reduce repeated Signal Store reads)
+- Slack (replace Telegram for enterprise team alerts)
 
-Phase 3
-- RAG
-- Pinecone
-- Historical Trends
+**Phase 2 — CRM Integrations**
+- Salesforce, HubSpot, Pipedrive native connectors
+- Replace Google Sheets CRM with real CRM writes
 
-Phase 4
-- ML Intent Scoring
-- Feedback Learning
-- Reinforcement
+**Phase 3 — Intelligence Layer**
+- RAG over historical signal data (Pinecone)
+- Intent trend visualization per account over time
+
+**Phase 4 — Learning System**
+- ML-based intent scoring (replace static weights)
+- Feedback loop from won/lost deals to refine signal weights
+- Reinforcement learning from SDR response rates
 
 
 
@@ -262,8 +257,6 @@ Phase 4
 • n8n
 
 • Claude
-
-• OpenAI
 
 • Google Sheets API
 
