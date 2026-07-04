@@ -22,11 +22,11 @@ Automatically:
 
 ## Live Demo
 
-(Animated GIF)
+(Coming Soon)
 
 ## Overview
 
-An end-to-end multi-agent AI workflow built with **n8n** that continuously monitors market signals, identifies buying intent, prioritizes target accounts, recommends decision-makers, generates personalized outreach, and updates a lightweight CRM.
+AI-Powered B2B Intent Intelligence Platform is an end-to-end multi-agent workflow that continuously monitors market activity, identifies buying intent, prioritizes target accounts, recommends decision-makers, generates personalized outreach, and updates CRM automatically. It demonstrates how modern AI agents can automate the top of the B2B sales funnel.
 
 ## Business Problem
 
@@ -58,7 +58,29 @@ This project automates the journey from signal discovery to AI-generated outreac
 During my transition into AI Product Management, I wanted to build something that demonstrates workflow automation, CRM integrations, AI agents, and product thinking—not just LLM prompting. This project simulates how modern B2B sales organizations detect buying intent, prioritize accounts, and generate personalized outreach using a modular AI architecture.
 
 ##  User Journey
-Read Target Accounts> Fetch News > Normalize > Deduplicate > Aggregate by Company > AI Signal Discovery > Signal Extraction > Signal Normalization> Store Signals > Calculate Intent > Update CRM > Buyer Discovery > Persona Selection > Generate Outreach > Telegram Notification
+
+Target Accounts
+        │
+        ▼
+News Collection
+        │
+        ▼
+Signal Normalization
+        │
+        ▼
+Intent Scoring
+        │
+        ▼
+CRM Update
+        │
+        ▼
+Buyer Discovery
+        │
+        ▼
+AI Outreach
+        │
+        ▼
+Telegram Alerts
 
 <img width="1148" height="1108" alt="image" src="https://github.com/user-attachments/assets/1c8cd067-47ac-40fa-aaa5-2c69a82022be" />
 
@@ -97,11 +119,20 @@ Read Target Accounts> Fetch News > Normalize > Deduplicate > Aggregate by Compan
 
 ## Product Decisions:
 
--   Google Sheets as MVP datastore
--   Modular AI agents
--   Human-readable CRM
--   Signal expiry
--   AI only for high-value tasks
+Google Sheets
+→ Rapid MVP iteration without infrastructure overhead
+
+Signal Expiry
+→ Prevent stale buying intent from influencing scores
+
+Modular AI Agents
+→ Independent prompts improve maintainability
+
+Human-readable CRM
+→ Designed for SDR usability
+
+AI only for reasoning-intensive tasks
+→ Deterministic logic for rule-based operations; AI reserved for reasoning-intensive tasks.
 
 ## Sample Outputs:
 
@@ -141,8 +172,13 @@ CRM Synchronization
 
 Personalized Outreach
 
+
+
 ## Current Limitations:
 
+-   No historical intent trend visualization
+-   Limited contact enrichment sources
+-   Rule-based scoring (no ML learning)
 -   Google Sheets instead of a database
 -   Rule-based scoring
 -   Limited news sources
@@ -150,15 +186,25 @@ Personalized Outreach
 -   No analytics dashboard
 
 ## Future Roadmap:
+Phase 1
+- PostgreSQL
+- Redis Cache
+- Slack
 
--   PostgreSQL
--   HubSpot/Salesforce sync
--   RAG
--   Vector search
--   Historical trends
--   ML-based scoring
--   SDR feedback loop
--   Dashboard
+Phase 2
+- Salesforce
+- HubSpot
+- Pipedrive
+
+Phase 3
+- RAG
+- Pinecone
+- Historical Trends
+
+Phase 4
+- ML Intent Scoring
+- Feedback Learning
+- Reinforcement
 
 ## Repository Structure
 
@@ -182,3 +228,33 @@ README.md
 -   Specialized agents outperform single prompts.
 -   Signal freshness matters.
 -   Explainability builds trust.
+
+## Skills Demonstrated
+
+• Product Management
+
+• AI Agent Design
+
+• Workflow Automation
+
+• CRM Integrations
+
+• Prompt Engineering
+
+• Intent Scoring
+
+• API Integrations
+
+• Multi-Agent Systems
+
+• Sales Automation
+
+• n8n
+
+• Claude
+
+• OpenAI
+
+• Google Sheets API
+
+• REST APIs
