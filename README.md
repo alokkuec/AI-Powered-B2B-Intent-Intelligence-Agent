@@ -1,4 +1,22 @@
-# AI-Powered B2B Intent Intelligence Agent
+# AI-Powered B2B Intent Intelligence Platform
+
+Transform real-time buying signals into actionable sales opportunities using AI Agents.
+
+Automatically:
+
+✓ Monitor market signals
+✓ Detect buying intent
+✓ Score target accounts
+✓ Update CRM
+✓ Recommend decision makers
+✓ Generate personalized outreach
+✓ Notify SDRs instantly
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8179bc2e-9ce8-43ae-bf1a-fdc16790c4dc" />
+
+## Live Demo
+
+(Animated GIF)
 
 ## Overview
 
@@ -8,8 +26,7 @@ An end-to-end multi-agent AI workflow built with **n8n** that continuously monit
 
 B2B sales teams often discover buying intent too late. Market signals are scattered across multiple sources, require manual research, and rarely translate into timely personalized outreach.
 
-This project automates the journey from signal discovery to AI-generated
-outreach.
+This project automates the journey from signal discovery to AI-generated outreach.
 
 ## Key Features
 
@@ -29,6 +46,7 @@ outreach.
   - Storage: Google Sheets
   - Notifications: Telegram
   - APIs: REST APIs
+
 ## Flow
 
 1.  Read Target Accounts
@@ -51,13 +69,23 @@ outreach.
 
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/0fae11c5-96ed-45d5-9b6d-330041a301d2" />
 
+## AI Agents
+| Agent                | Responsibility               |
+| -------------------- | ---------------------------- |
+| Signal Discovery     | Find relevant buying signals |
+| Signal Extraction    | Extract structured events    |
+| Signal Normalization | Standardize data             |
+| Intent Scoring       | Calculate buying intent      |
+| Buyer Discovery      | Recommend contacts           |
+| Personalization      | Generate outreach            |
+
 
 ## User Journey
 
 Target Accounts → News Collection → Intent Detection → CRM Update →
 Contact Recommendation → Personalized Outreach → SDR Notification
 
-## Scoring Framework
+## Scoring Framework:
 
 -   Weighted buying signals
 -   Time decay
@@ -65,7 +93,16 @@ Contact Recommendation → Personalized Outreach → SDR Notification
 -   Maximum score = 100
 -   Buying stages: Target, Awareness, Consideration, Decision
 
-## Product Decisions
+| Signal         | Weight |
+| -------------- | -----: |
+| Funding        |     40 |
+| Acquisition    |     35 |
+| Partnership    |     25 |
+| Hiring         |     15 |
+| Product Launch |     20 |
+
+
+## Product Decisions:
 
 -   Google Sheets as MVP datastore
 -   Modular AI agents
@@ -73,7 +110,7 @@ Contact Recommendation → Personalized Outreach → SDR Notification
 -   Signal expiry
 -   AI only for high-value tasks
 
-## Sample Outputs
+## Sample Outputs:
 
 -   Signal Store
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/2e1bbaaa-1274-4c85-9e54-4f55c392a83f" />
@@ -92,7 +129,26 @@ Contact Recommendation → Personalized Outreach → SDR Notification
   <img width="411" height="159" alt="image" src="https://github.com/user-attachments/assets/6c652927-760b-4799-a42c-b6de0fe9580c" />
 
 
-## Current Limitations
+
+## Technical Highlights:
+
+30+ n8n nodes
+
+6 AI Agents
+
+3 External APIs
+
+100% Automated
+
+7 Buying Signal Types
+
+Intent Score Engine
+
+CRM Synchronization
+
+Personalized Outreach
+
+## Current Limitations:
 
 -   Google Sheets instead of a database
 -   Rule-based scoring
@@ -100,7 +156,7 @@ Contact Recommendation → Personalized Outreach → SDR Notification
 -   No feedback learning
 -   No analytics dashboard
 
-## Future Roadmap
+## Future Roadmap:
 
 -   PostgreSQL
 -   HubSpot/Salesforce sync
