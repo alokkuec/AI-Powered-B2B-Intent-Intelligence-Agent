@@ -22,7 +22,8 @@ Automatically:
 
 ## Live Demo
 
-(Coming Soon)
+Loom walkthrough — recording in progress.
+See Sample Outputs below for workflow results.
 
 ## Overview
 
@@ -55,7 +56,9 @@ This project automates the journey from signal discovery to AI-generated outreac
 
 ## Product Vision:
 
-During my transition into AI Product Management, I wanted to build something that demonstrates workflow automation, CRM integrations, AI agents, and product thinking—not just LLM prompting. This project simulates how modern B2B sales organizations detect buying intent, prioritize accounts, and generate personalized outreach using a modular AI architecture.
+At 6sense, I launched Intelligent Workflows — a no-code GTM orchestration platform used by 1,500+ enterprise customers. I wanted to build the underlying signal detection and scoring layer from scratch to understand the implementation depth behind the product decisions I was making as a PM.
+
+This project simulates how enterprise intent platforms detect buying signals, weight them over time, and translate them into personalised outreach — built with n8n, Claude, and Google Sheets as the intentionally lightweight stack.
 
 ##  User Journey
 
@@ -179,14 +182,22 @@ Personalized Outreach
 
 ## Current Limitations:
 
--   No historical intent trend visualization
--   Limited contact enrichment sources
+## Current Limitations
+
+- Google Sheets as signal store — no indexed queries, reads all rows per run (see Roadmap: Phase 1)
+
+- Contact enrichment uses mock data — Apollo and Hunter free tiers restrict people search endpoints
+
+- Signal collection limited to news APIs — LinkedIn hiring/leadership signals require paid enrichment
+
+- No feedback loop — scoring weights are static, not learned from conversion outcomes
+
+- No historical trend visualization — score changes over time not yet surfaced
+
 -   Rule-based scoring (no ML learning)
--   Google Sheets instead of a database
--   Rule-based scoring
+
 -   Limited news sources
--   No feedback learning
--   No analytics dashboard
+  
 
 
 ## Future Roadmap:
