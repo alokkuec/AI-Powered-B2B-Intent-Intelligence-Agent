@@ -2,16 +2,11 @@
 
 ## Overview
 
-An end-to-end multi-agent AI workflow built with **n8n** that
-continuously monitors market signals, identifies buying intent,
-prioritizes target accounts, recommends decision-makers, generates
-personalized outreach, and updates a lightweight CRM.
+An end-to-end multi-agent AI workflow built with **n8n** that continuously monitors market signals, identifies buying intent, prioritizes target accounts, recommends decision-makers, generates personalized outreach, and updates a lightweight CRM.
 
 ## Business Problem
 
-B2B sales teams often discover buying intent too late. Market signals
-are scattered across multiple sources, require manual research, and
-rarely translate into timely personalized outreach.
+B2B sales teams often discover buying intent too late. Market signals are scattered across multiple sources, require manual research, and rarely translate into timely personalized outreach.
 
 This project automates the journey from signal discovery to AI-generated
 outreach.
@@ -110,7 +105,7 @@ Contact Recommendation → Personalized Outreach → SDR Notification
 
 ## Current Limitations
 
--   Google Sheets instead of database
+-   Google Sheets instead of a database
 -   Rule-based scoring
 -   Limited news sources
 -   No feedback learning
