@@ -139,8 +139,10 @@ AI only for reasoning-intensive tasks
 -   Signal Store
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/2e1bbaaa-1274-4c85-9e54-4f55c392a83f" />
 
+
 -   CRM
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/30b721ef-a9e7-45b2-bd82-89c8dc7f2d6f" />
+
 
 -   Telegram alerts
   <img width="335" height="236" alt="image" src="https://github.com/user-attachments/assets/793664a5-36cd-4d51-a756-ffcab06f76ab" />
@@ -148,6 +150,7 @@ AI only for reasoning-intensive tasks
 
 -   Email draft
 <img width="701" height="646" alt="image" src="https://github.com/user-attachments/assets/d7995547-c906-4e8e-874e-7ccc7384e76d" />
+
 
 -   LinkedIn draft
   <img width="411" height="159" alt="image" src="https://github.com/user-attachments/assets/6c652927-760b-4799-a42c-b6de0fe9580c" />
@@ -173,7 +176,6 @@ CRM Synchronization
 Personalized Outreach
 
 
-
 ## Current Limitations:
 
 -   No historical intent trend visualization
@@ -184,6 +186,7 @@ Personalized Outreach
 -   Limited news sources
 -   No feedback learning
 -   No analytics dashboard
+
 
 ## Future Roadmap:
 Phase 1
@@ -206,15 +209,7 @@ Phase 4
 - Feedback Learning
 - Reinforcement
 
-## Repository Structure
 
-``` text
-/workflows
-/prompts
-/docs
-/screenshots
-README.md
-```
 
 ## Design Principles
 
@@ -223,11 +218,13 @@ README.md
 -   Low-cost MVP
 -   Human-in-the-loop
 
+
 ## Lessons Learned
 
 -   Specialized agents outperform single prompts.
 -   Signal freshness matters.
 -   Explainability builds trust.
+
 
 ## Skills Demonstrated
 
