@@ -3,6 +3,7 @@
 Transform real-time buying signals into actionable sales opportunities using AI Agents.
 
 Automatically:
+
 ✓ Monitor market signals
 
 ✓ Detect buying intent
