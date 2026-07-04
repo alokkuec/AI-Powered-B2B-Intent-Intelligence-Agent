@@ -53,7 +53,7 @@ This project automates the journey from signal discovery to AI-generated outreac
   - Notifications: Telegram
   - APIs: REST APIs
 
-## Flow
+##  User Journey
 
 1.  Read Target Accounts
 2.  Fetch News
@@ -86,10 +86,6 @@ This project automates the journey from signal discovery to AI-generated outreac
 | Personalization      | Generate outreach            |
 
 
-## User Journey
-
-Target Accounts → News Collection → Intent Detection → CRM Update →
-Contact Recommendation → Personalized Outreach → SDR Notification
 
 ## Scoring Framework:
 
