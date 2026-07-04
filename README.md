@@ -163,21 +163,17 @@ AI only for reasoning-intensive tasks
 
 ## Technical Highlights:
 
-30+ n8n nodes
-
-6 AI Agents
-
-3 External APIs
-
-100% Automated
-
-7 Buying Signal Types
-
-Intent Score Engine
-
-CRM Synchronization
-
-Personalized Outreach
+- **Sequential signal storage** before history read —
+  eliminates race condition in parallel branch design
+- **Time decay model** — signals >30 days old weighted
+  at 50%, signals >90 days excluded entirely
+- **Content-based deduplication** — fingerprint on
+  company + headline prevents score inflation across
+  runs and sources
+- **One headline = one signal** priority rule —
+  prevents double-counting from compound headlines
+- **Watchlist-scoped history reads** — Signal Store
+  filtered to active accounts only, not a full table scan
 
 
 ## Current Limitations:
