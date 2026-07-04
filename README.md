@@ -3,13 +3,18 @@
 Transform real-time buying signals into actionable sales opportunities using AI Agents.
 
 Automatically:
-
 ✓ Monitor market signals
+
 ✓ Detect buying intent
+
 ✓ Score target accounts
+
 ✓ Update CRM
+
 ✓ Recommend decision makers
+
 ✓ Generate personalized outreach
+
 ✓ Notify SDRs instantly
 
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8179bc2e-9ce8-43ae-bf1a-fdc16790c4dc" />
