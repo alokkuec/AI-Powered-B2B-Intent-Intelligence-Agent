@@ -23,11 +23,9 @@ outreach.
 
 ## Tech Stack
 
-  Layer           Technology
-  --------------- ---------------------------------------
-  Workflow        n8n
-  AI              Claude, OpenAI
-  News            Google News RSS, NewsAPI, Hacker News
-  Storage         Google Sheets
-  Notifications   Telegram
-  APIs            REST APIs
+  - Workflow: n8n
+  - AI: Claude, OpenAI
+  - News: Google News RSS, NewsAPI, Hacker News
+  - Storage: Google Sheets
+  - Notifications: Telegram
+  - APIs: REST APIs
