@@ -49,27 +49,8 @@ outreach.
 
 ## Architecture Diagram
 
-``` text
-News Sources
-      |
-Normalize
-      |
-Deduplicate
-      |
-Aggregate
-      |
-AI Signal Discovery
-      |
-Signal Extraction
-      |
-Signal Store --> Intent Engine --> CRM
-                              |
-                       Buyer Discovery
-                              |
-                      AI Personalization
-                              |
-                          Telegram
-```
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/0fae11c5-96ed-45d5-9b6d-330041a301d2" />
+
 
 ## User Journey
 
@@ -95,10 +76,19 @@ Contact Recommendation → Personalized Outreach → SDR Notification
 ## Sample Outputs
 
 -   Signal Store
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/2e1bbaaa-1274-4c85-9e54-4f55c392a83f" />
+
 -   CRM
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/30b721ef-a9e7-45b2-bd82-89c8dc7f2d6f" />
+
 -   Telegram alerts
+
 -   Email draft
+<img width="701" height="646" alt="image" src="https://github.com/user-attachments/assets/d7995547-c906-4e8e-874e-7ccc7384e76d" />
+
 -   LinkedIn draft
+  <img width="411" height="159" alt="image" src="https://github.com/user-attachments/assets/6c652927-760b-4799-a42c-b6de0fe9580c" />
+
 
 ## Current Limitations
 
