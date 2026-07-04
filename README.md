@@ -108,7 +108,8 @@ Telegram Alerts
 | Funding        |     40 |
 | Acquisition    |     35 |
 | Partnership    |     25 |
-| Hiring         |     15 |
+| Expansion      |     15 |
+| Hiring         |     10 |
 | Product Launch |     20 |
 
 -   Weighted buying signals
