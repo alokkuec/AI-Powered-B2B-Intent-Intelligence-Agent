@@ -178,8 +178,6 @@ AI only for reasoning-intensive tasks
 
 ## Current Limitations:
 
-## Current Limitations
-
 - Google Sheets as signal store — no indexed queries, reads all rows per run (see Roadmap: Phase 1)
 
 - Contact enrichment uses mock data — Apollo and Hunter free tiers restrict people search endpoints
@@ -224,15 +222,22 @@ Phase 4
 -   Explainable AI
 -   Modular architecture
 -   Low-cost MVP
--   Human-in-the-loop
+-   Human-in-the-loop (Draft Email not sent automatically)
 
 
 ## Lessons Learned
 
--   Specialized agents outperform single prompts.
--   Signal freshness matters.
--   Explainability builds trust.
-
+- **Source constraints shape architecture** — blog RSS
+  failed due to non-standard URL patterns across SaaS
+  companies. Switched to Google News + NewsAPI + HN,
+  each requiring different query strategies.
+- **Free API tier limitations are design inputs** —
+  Apollo's people search requires a paid plan. Documented
+  as a known limitation with a production workaround
+  (waterfall enrichment).
+- **AI where judgment is needed, rules everywhere else**
+  — buying stage classification via pure if/else is more
+  defensible in a RevOps context than an AI black box.
 
 ## Skills Demonstrated
 
