@@ -93,14 +93,14 @@ Telegram Alerts
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/0fae11c5-96ed-45d5-9b6d-330041a301d2" />
 
 ## AI Agents
-| Agent                | Responsibility               |
-| -------------------- | ---------------------------- |
-| Signal Discovery     | Find relevant buying signals |
-| Signal Extraction    | Extract structured events    |
-| Signal Normalization | Standardize data             |
-| Intent Scoring       | Calculate buying intent      |
-| Buyer Discovery      | Recommend contacts           |
-| Personalization      | Generate outreach            |
+| Agent                | Responsibility               | Why AI(Not Rules)                      |
+| -------------------- | ---------------------------- | ---------------------------------------|
+| Signal Discovery     | Find relevant buying signals | Ambiguous text requires judgment       |
+| Signal Normalization | Standardize data             | Handles varied Claude output formats   |
+| Intent Scoring       | Calculate buying intent      | ❌ Pure JS — deterministic by design   |
+| Buyer Discovery      | Recommend contacts           | Role matching requires context         |
+| Personalization      | Generate outreach            | Creative language generation           |
+| Stage Assignment     | Map score to buying Stage    | ❌ Pure rules — explainable by design 
 
 
 
