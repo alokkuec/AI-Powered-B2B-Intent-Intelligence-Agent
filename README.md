@@ -53,23 +53,15 @@ This project automates the journey from signal discovery to AI-generated outreac
   - Notifications: Telegram
   - APIs: REST APIs
 
-##  User Journey
+## Product Vision:
 
-1.  Read Target Accounts
-2.  Fetch News
-3.  Normalize
-4.  Deduplicate
-5.  Aggregate by Company
-6.  AI Signal Discovery
-7.  Signal Extraction
-8.  Signal Normalization
-9.  Store Signals
-10. Calculate Intent
-11. Update CRM
-12. Buyer Discovery
-13. Persona Selection
-14. Generate Outreach
-15. Telegram Notification
+During my transition into AI Product Management, I wanted to build something that demonstrates workflow automation, CRM integrations, AI agents, and product thinking—not just LLM prompting. This project simulates how modern B2B sales organizations detect buying intent, prioritize accounts, and generate personalized outreach using a modular AI architecture.
+
+##  User Journey
+Read Target Accounts> Fetch News > Normalize > Deduplicate > Aggregate by Company > AI Signal Discovery > Signal Extraction > Signal Normalization> Store Signals > Calculate Intent > Update CRM > Buyer Discovery > Persona Selection > Generate Outreach > Telegram Notification
+
+<img width="1148" height="1108" alt="image" src="https://github.com/user-attachments/assets/1c8cd067-47ac-40fa-aaa5-2c69a82022be" />
+
 
 ## Architecture Diagram
 
@@ -89,12 +81,6 @@ This project automates the journey from signal discovery to AI-generated outreac
 
 ## Scoring Framework:
 
--   Weighted buying signals
--   Time decay
--   Unique signal types only
--   Maximum score = 100
--   Buying stages: Target, Awareness, Consideration, Decision
-
 | Signal         | Weight |
 | -------------- | -----: |
 | Funding        |     40 |
@@ -103,6 +89,11 @@ This project automates the journey from signal discovery to AI-generated outreac
 | Hiring         |     15 |
 | Product Launch |     20 |
 
+-   Weighted buying signals
+-   Time decay
+-   Unique signal types only
+-   Maximum score = 100
+-   Buying stages: Target, Awareness, Consideration, Decision
 
 ## Product Decisions:
 
